@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="vK@zNl`@jQp5}J$?mS@M" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="+J3mZ=3#1sIE*fI]N%=e"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="music_playable_play" id="sYj;mkBKk8D^wa+*1}eF"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_string_playable" id="rZtx5S-=B16}sVOivQe?"><value name="melody"><shadow type="melody_editor" id="t0(T/4lFtS^My_l8/3^+"><field name="melody">"E B G F D G A F "</field></shadow></value><value name="bpm"><shadow type="math_number_minmax" id="7tn(lrz[00KJ^pVK#W}f"><mutation min="40" max="500" label="Bpm" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></shadow></value><next><block type="basic_show_icon" id="nB7m!2*U}pB/Z0Ux~Hb5"><field name="i">IconNames.Heart</field><next><block type="basic_show_icon" id="?!kTgur~XT)6i4[I~Kku"><field name="i">IconNames.StickFigure</field><next><block type="basic_show_icon" id="37+v{7wc-gn9f|E-#S8m"><field name="i">IconNames.Chessboard</field></block></next></block></next></block></next></block></next></block></statement></block></xml>
